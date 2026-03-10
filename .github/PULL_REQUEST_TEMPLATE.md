@@ -1,45 +1,26 @@
-## Purpose
-<!-- Describe the intention of the changes being proposed. What problem does it solve or functionality does it add? -->
-* ...
+## Task Issue
 
-## Does this introduce a breaking change?
-<!-- Mark one with an "x". -->
-```
-[ ] Yes
-[ ] No
-```
+Closes #<!-- issue number -->
 
-## Pull Request Type
-What kind of change does this Pull Request introduce?
+## Description
 
-<!-- Please check the one that applies to this PR using "x". -->
-```
-[ ] Bugfix
-[ ] Feature
-[ ] Code style update (formatting, local variables)
-[ ] Refactoring (no functional changes, no api changes)
-[ ] Documentation content changes
-[ ] Other... Please describe:
-```
+<!-- What changes does this PR make and why? -->
 
-## How to Test
-*  Get the code
+## Checklist
 
-```
-git clone [repo-address]
-cd [repo-name]
-git checkout [branch-name]
-npm install
-```
+- [ ] Linked to task issue
+- [ ] Changes are minimal (only what the task requires)
+- [ ] Tests added/updated
+- [ ] All tests pass (`make test`)
+- [ ] Linting passes (`make lint`)
+- [ ] No secrets or credentials committed
+- [ ] Documentation updated (if applicable)
+- [ ] Follows project conventions (docs/conventions.md)
 
-* Test the code
-<!-- Add steps to run the tests suite and/or manually test -->
-```
-```
+## Reviewer Notes
 
-## What to Check
-Verify that the following are valid
-* ...
+<!-- Anything reviewers should know or pay attention to -->
 
-## Other Information
-<!-- Add any other helpful information that may be needed here. -->
+## Security Considerations
+
+<!-- Any security implications of these changes? (new inputs, auth changes, dependency updates, etc.) -->
