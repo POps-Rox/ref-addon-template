@@ -14,8 +14,8 @@ AUTHOR/S: jrspinella
 
 // Resources for the Operations Spoke
 module "mod_workload_network" {
-  source    = "azurenoops/overlays-workload-spoke/azurerm"
-  version   = ">= 2.0.0"
+  source  = "azurenoops/overlays-workload-spoke/azurerm"
+  version = ">= 2.0.0"
 
   # By default, this module will create a resource group, provide the name here
   # To use an existing resource group, specify the existing resource group name, 
@@ -26,7 +26,7 @@ module "mod_workload_network" {
   org_name              = var.org_name
   environment           = var.environment
   workload_name         = var.wl_name
-  
+
   # Collect Spoke Virtual Network Parameters
   # Spoke network details to create peering and other setup
   hub_virtual_network_id          = var.hub_virtual_network_id

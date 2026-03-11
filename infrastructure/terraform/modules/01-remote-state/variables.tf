@@ -3,19 +3,19 @@
 
 # Organization name
 variable "org_name" {
-  type = string
+  type        = string
   description = "mpe"
-  default = "afmpe"
+  default     = "afmpe"
 }
 # Environment
 variable "environment" {
-  type = string
+  type        = string
   description = "This variable defines the environment to be built"
-  default = "prod"
+  default     = "prod"
 }
 # Azure region
 variable "location" {
-  type = string
+  type        = string
   description = "Azure region where resources will be created"
-  default = "eastus"
+  default     = "eastus"
 }
