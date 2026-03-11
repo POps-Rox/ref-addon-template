@@ -14,7 +14,7 @@ AUTHOR/S: jrspinella
 
 // Resources for the Operations Spoke
 module "mod_workload_network" {
-  source  = "azurenoops/overlays-workload-spoke/azurerm"
+  source  = "github.com/POps-Rox/tf-az-overlays-workloadspoke"
   version = ">= 2.0.0"
 
   # By default, this module will create a resource group, provide the name here
