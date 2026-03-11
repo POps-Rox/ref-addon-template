@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ref-addon-template
+  description: Template for creating new Azure NoOps addon modules
+  annotations:
+    github.com/project-slug: POps-Rox/ref-addon-template
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - reference-architecture
+    - terraform
+    - azure
+    - platform-ops
+  links:
+    - url: https://github.com/POps-Rox/ref-addon-template
+      title: GitHub Repository
+      icon: github
+spec:
+  type: reference-architecture
+  owner: platform-ops-team
+  lifecycle: production
+  system: pops-rox-platform
