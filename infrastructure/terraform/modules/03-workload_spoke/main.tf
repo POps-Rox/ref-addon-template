@@ -14,7 +14,7 @@ AUTHOR/S: jrspinella
 
 // Resources for the Operations Spoke
 module "mod_workload_network" {
-  source  = "github.com/POps-Rox/tf-az-overlays-workloadspoke"
+  source = "github.com/POps-Rox/tf-az-overlays-workloadspoke"
 
   # By default, this module will create a resource group, provide the name here
   # To use an existing resource group, specify the existing resource group name, 

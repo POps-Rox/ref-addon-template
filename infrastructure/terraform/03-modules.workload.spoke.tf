@@ -6,7 +6,7 @@
 #####################################
 
 module "mod_workload_spoke" {
-  source = "./modules/07-workload_spoke"
+  source = "./modules/03-workload_spoke"
 
   # Global Configuration
   location                 = var.default_location
