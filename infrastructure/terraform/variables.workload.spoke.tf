@@ -40,6 +40,18 @@ variable "wl_private_dns_zones" {
   default     = []
 }
 
+variable "enable_traffic_analytics" {
+  description = "Enable Traffic Analytics for NSG Flow Logs"
+  type        = bool
+  default     = false
+}
+
+variable "use_remote_spoke_gateway" {
+  description = "Indicates whether to use the source remote spoke gateway."
+  type        = bool
+  default     = false
+}
+
 variable "hub_managmement_logging_log_analytics_id" {
   description = "The Log Analytics resource ID for the hub management logging."
   type        = string
